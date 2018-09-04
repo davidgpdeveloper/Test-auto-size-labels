@@ -12,6 +12,8 @@
 		95F58593213EFE2000AE2DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F58591213EFE2000AE2DFC /* Main.storyboard */; };
 		95F58595213EFE2100AE2DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F58594213EFE2100AE2DFC /* Assets.xcassets */; };
 		95F58598213EFE2100AE2DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F58596213EFE2100AE2DFC /* LaunchScreen.storyboard */; };
+		95F585A0213F00FA00AE2DFC /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5859F213F00FA00AE2DFC /* Test2.swift */; };
+		95F585A2213F018C00AE2DFC /* TextsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F585A1213F018C00AE2DFC /* TextsFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		95F58594213EFE2100AE2DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F58597213EFE2100AE2DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95F58599213EFE2100AE2DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F5859F213F00FA00AE2DFC /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		95F585A1213F018C00AE2DFC /* TextsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				95F58594213EFE2100AE2DFC /* Assets.xcassets */,
 				95F58596213EFE2100AE2DFC /* LaunchScreen.storyboard */,
 				95F58599213EFE2100AE2DFC /* Info.plist */,
+				95F5859F213F00FA00AE2DFC /* Test2.swift */,
+				95F585A1213F018C00AE2DFC /* TextsFile.swift */,
 			);
 			path = testLabelAutoSize;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F585A0213F00FA00AE2DFC /* Test2.swift in Sources */,
 				95F58590213EFE2000AE2DFC /* ViewController.swift in Sources */,
+				95F585A2213F018C00AE2DFC /* TextsFile.swift in Sources */,
 				95F5858E213EFE2000AE2DFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,14 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // OBJECTS
+    
+    @IBOutlet weak var text1: UILabel!
+    @IBOutlet weak var text2: UILabel!
+    @IBOutlet weak var text3: UILabel!
+    @IBOutlet weak var text4: UILabel!
+    
+    // VARIABLES & CONSTANTS
+
+    
+    
+    // LOAD
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        startActions()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func startActions() {
+        text2.text = longText2
+        text4.text = longText1
     }
 
 
